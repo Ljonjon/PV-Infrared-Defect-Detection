@@ -1,0 +1,7 @@
+# PV Infrared Defect Dataset
+# Paths are relative to the repository root.
+train: datasets/pv_data/images/train
+val: datasets/pv_data/images/val
+
+nc: 5
+names: ['scratch', 'hot_spot', 'broken', 'black_border', 'no_electricity']

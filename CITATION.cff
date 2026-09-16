@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use the GBH-YOLOv5 architecture or dataset, please cite the original paper."
+title: "PV Infrared Defect Detection"
+repository-code: "https://github.com/Ljonjon/PV-Infrared-Defect-Detection"
+preferred-citation:
+  type: article
+  title: "GBH-YOLOv5: Ghost Convolution with BottleneckCSP and Tiny Target Prediction Head Incorporating YOLOv5 for PV Panel Defect Detection"
+  authors:
+    - family-names: Li
+      given-names: Longlong
+    - family-names: Wang
+      given-names: Zhifeng
+    - family-names: Zhang
+      given-names: Tingting
+  journal: "Electronics"
+  volume: 12
+  issue: 3
+  start: 561
+  year: 2023
+  doi: "10.3390/electronics12030561"

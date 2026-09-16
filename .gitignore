@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+models/_vs/
+
+# Inference outputs and caches
+runs/
+*.cache
+*.log
+
+# Model weights are delivered separately by email.
+weights/*.pt
+weights/*.pth
+weights/*.onnx
+weights/*.mlmodel
+weights/*.torchscript.pt
+
+# Test images and converted datasets are not redistributed through Git.
+test_images/JPEGImages/*
+!test_images/JPEGImages/README.md
+data/images/PV-Multi-Defect/
+datasets/
+*.mp4
